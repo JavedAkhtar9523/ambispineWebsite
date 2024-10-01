@@ -1,0 +1,94 @@
+.hero-section {
+    position: relative;
+    height: 180vh;
+    background-image: url('../../../public/Hero_Image_2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 25%;
+    left: 23%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    padding: 0.75rem 2rem;
+    background-color: #01A982;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    /* margin-left: 20px; */
+    margin-right: 90px;
+  }
+  
+  .cta-button:hover {
+    background-color: #09785e;
+  }
+  .latest{
+    position: absolute;
+    top: 90vh;
+    left: 80px;
+    width: 90%;
+    background-color: black;
+    color: #fff;
+    border-radius: 12px;
+    height: 480px;
+  }
+  .latest .haeding{
+    padding: 50px;
+    font-size: 20px;
+    border-bottom:1px solid #14181b;
+  }
+  .latest_button{
+    color: #01A982;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+  .latest h4{
+    font-size: 20px;
+  }
+  .last_hero{
+    position: absolute;
+    top: 170vh;
+    width: 100%;
+    padding-top:35px ;
+    background-color: black;
+    display: flex;
+    
+  }
+  .last_hero h3{
+    /* margin-left: 200px; */
+    color: #fff;
+    font-size: 20px;
+  }
+  .content h3{
+    padding: 0 20px;
+    text-align: center;
+  }
